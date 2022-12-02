@@ -56,6 +56,20 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        changebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ModositasActivity.class));
+                finish();
+            }
+        });
+        deletebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TorlesActivity.class));
+                finish();
+            }
+        });
     }
 
     private void init() {
