@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:background="@drawable/marioka"
+    android:background="@drawable/mario2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
