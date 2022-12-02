@@ -37,13 +37,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="adatok törlése" />
+        <Button
+            android:id="@+id/radicsdance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radics Dance" />
 
         <TextView
             android:id="@+id/textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="textview"
-            android:textColorHint="@color/white" />
+            android:textColorHint="@color/red"
+            android:textColor="@color/red"/>
 
     </LinearLayout>
 

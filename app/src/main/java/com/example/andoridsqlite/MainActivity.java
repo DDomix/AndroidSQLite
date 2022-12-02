@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button changebutton;
     private Button deletebutton;
     private TextView textView;
-
+    private Button radicsdance;
     private DBHelper adatbazis;
 
     @Override
@@ -70,6 +70,13 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+        radicsdance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Radics.class));
+                finish();
+            }
+        });
     }
 
     private void init() {
@@ -78,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
         changebutton = findViewById(R.id.changebutton);
         deletebutton = findViewById(R.id.deletebutton);
         textView = findViewById(R.id.textview);
+        radicsdance=findViewById(R.id.radicsdance);
         adatbazis = new DBHelper(MainActivity.this);
     }
 }
